@@ -1,0 +1,3 @@
+﻿Large,2000,1,10:00-12:00,Back to the future,13:00-15:00,American beauty
+Medium,1500,2,16:00-18:00,Lost in translation
+VIP,3500,3,19:00-21:00,A clockwork orange,22:00-00:00,50 first dates

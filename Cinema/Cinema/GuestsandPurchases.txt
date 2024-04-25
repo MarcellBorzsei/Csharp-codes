@@ -1,0 +1,4 @@
+﻿Adult,Kovács Béla,BF,1,10:00-12:00
+Kid,Kerényi Gergő,R,2,16:00-18:00
+Old,Ács Zoltán,R,3,22:00-00:00
+Old,Ács Zoltán,BR,3,22:00-00:00
