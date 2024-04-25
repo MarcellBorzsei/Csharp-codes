@@ -1,0 +1,65 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KitolasMaui.View.GamePage"
+             Title="GamePage">
+    <Grid Margin="4" RowSpacing="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Button Text="Új játék" Command="{Binding NewGameCommand}" Grid.Row="0" HorizontalOptions="Start" />
+        <Button Text="Beállítások" Command="{Binding ExitGameCommand}" Grid.Row="0" HorizontalOptions="End" />
+
+        <StackLayout Orientation="Horizontal" Grid.Row="0" HorizontalOptions="Center">
+            <Button Text="3x3" Command="{Binding MapChangeCommand}" CommandParameter="3" />
+            <Button Text="4x4" Command="{Binding MapChangeCommand}" CommandParameter="4" />
+            <Button Text="6x6" Command="{Binding MapChangeCommand}" CommandParameter="6" />
+            <Button Text="Up" Command="{Binding SlideCommand}" CommandParameter="up" />
+            <Button Text="Left" Command="{Binding SlideCommand}" CommandParameter="left" />
+            <Button Text="Down" Command="{Binding SlideCommand}" CommandParameter="down" />
+            <Button Text="Right" Command="{Binding SlideCommand}" CommandParameter="right" />
+            <Button Text="Switch player" Command="{Binding ChangeSelectedStoneCommand}" />
+        </StackLayout>
+
+
+        <Grid
+            Grid.Row="1"
+            BindableLayout.ItemsSource="{Binding Fields}"
+            RowDefinitions="{Binding GameTableRows}"
+            ColumnDefinitions="{Binding GameTableColumns}"
+            ColumnSpacing="4"
+            RowSpacing="4">
+            <!-- a játéktáblát egy sorfolytos listával valósítjuk meg -->
+            <BindableLayout.ItemTemplate>
+                <DataTemplate>
+                    <!-- a rács elemei gombok lesznek -->
+                    <Button
+                        Grid.Row="{Binding X}"
+                        Grid.Column="{Binding Y}"
+                        CommandParameter="{Binding Stone}"
+                        BackgroundColor="{Binding BackgroundColor}"
+                        Padding="0"
+                        FontAttributes="Bold"
+                        FontSize="Medium"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand" />
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </Grid>
+
+
+
+        <!-- az információkat alul írjuk ki -->
+        <StackLayout Orientation="Horizontal" Grid.Row="2" HorizontalOptions="Start">
+            <Label Text="Steps left: " />
+            <Label Text="{Binding CircleNum}" />
+            <Label Text="  Current Player: " />
+            <Label Text="{Binding CurrentPlayer}" />
+            <Label Text="  Selected Stone: " />
+            <Label Text="{Binding SelectedStone}" />
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

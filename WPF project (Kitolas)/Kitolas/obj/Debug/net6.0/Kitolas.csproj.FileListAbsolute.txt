@@ -1,0 +1,12 @@
+C:\Users\Marci\Desktop\3. félév\EVA\Kitolas_WPF_JOMAPPA\KitolasWPF\Kitolas\bin\Debug\net6.0\Kitolas.deps.json
+C:\Users\Marci\Desktop\3. félév\EVA\Kitolas_WPF_JOMAPPA\KitolasWPF\Kitolas\bin\Debug\net6.0\Kitolas.dll
+C:\Users\Marci\Desktop\3. félév\EVA\Kitolas_WPF_JOMAPPA\KitolasWPF\Kitolas\bin\Debug\net6.0\Kitolas.pdb
+C:\Users\Marci\Desktop\3. félév\EVA\Kitolas_WPF_JOMAPPA\KitolasWPF\Kitolas\obj\Debug\net6.0\Kitolas.csproj.AssemblyReference.cache
+C:\Users\Marci\Desktop\3. félév\EVA\Kitolas_WPF_JOMAPPA\KitolasWPF\Kitolas\obj\Debug\net6.0\Kitolas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marci\Desktop\3. félév\EVA\Kitolas_WPF_JOMAPPA\KitolasWPF\Kitolas\obj\Debug\net6.0\Kitolas.AssemblyInfoInputs.cache
+C:\Users\Marci\Desktop\3. félév\EVA\Kitolas_WPF_JOMAPPA\KitolasWPF\Kitolas\obj\Debug\net6.0\Kitolas.AssemblyInfo.cs
+C:\Users\Marci\Desktop\3. félév\EVA\Kitolas_WPF_JOMAPPA\KitolasWPF\Kitolas\obj\Debug\net6.0\Kitolas.csproj.CoreCompileInputs.cache
+C:\Users\Marci\Desktop\3. félév\EVA\Kitolas_WPF_JOMAPPA\KitolasWPF\Kitolas\obj\Debug\net6.0\Kitolas.dll
+C:\Users\Marci\Desktop\3. félév\EVA\Kitolas_WPF_JOMAPPA\KitolasWPF\Kitolas\obj\Debug\net6.0\refint\Kitolas.dll
+C:\Users\Marci\Desktop\3. félév\EVA\Kitolas_WPF_JOMAPPA\KitolasWPF\Kitolas\obj\Debug\net6.0\Kitolas.pdb
+C:\Users\Marci\Desktop\3. félév\EVA\Kitolas_WPF_JOMAPPA\KitolasWPF\Kitolas\obj\Debug\net6.0\ref\Kitolas.dll
